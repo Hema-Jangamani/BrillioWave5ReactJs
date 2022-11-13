@@ -1,0 +1,91 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+     transition-property: background-color width height;
+    transition-duration: 3s; 
+    transition: all 2s;
+    transition-delay: 2s;
+}
+
+div:hover{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}*/
+
+div{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    animation-name: myanim;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-iteration-count: 3;
+    
+} 
+
+ div:hover{
+    animation-play-state: paused;
+} 
+
+/* @keyframes myanim {
+    from{
+        background-color: blue;
+        font-size: 10pt;
+        width: 100px;
+        height: 100px;
+    }
+    to{
+        background-color: red;
+        font-size: 35pt;
+        width: 300px;
+        height: 300px;
+    }
+} */
+
+@keyframes myanim {
+    0%{
+        top: 5px;
+        left: 5px;
+        background-color: green;
+    }
+    25%{
+        top: 5px;
+        left: 300px;
+        background-color: red;
+    }
+    50%{
+        top: 300px;
+        left:300px;
+        background-color: blue;
+    }
+    75%{
+        top: 300px;
+        left: 5px;
+        background-color: yellow;
+    }
+    100%{
+        top: 5px;
+        left: 5px;
+        background-color: brown;
+    }
+}
+img{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transition: all 3s;
+}
+img:hover
+{
+    transform: scale(2,2);
+}

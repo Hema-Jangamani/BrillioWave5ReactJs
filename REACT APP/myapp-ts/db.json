@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": 2,
+      "text": "Meeting @9 am",
+      "isCompleted": true
+    },
+    {
+      "id": 3,
+      "text": "Work starts @10 am",
+      "isCompleted": true
+    }
+  ]
+}

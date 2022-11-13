@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React App</title>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        function Header(){
+            return(
+                <h1>Welcome to React JS</h1>
+            )
+        }
+        const Card=(props)=>{
+            return(
+                <div>
+                    <h1>This is Contact Card</h1>
+                    <p>Contact Name: {props.username}</p>
+                    <p>City:{props.city}</p>
+                </div>
+            )
+        }
+        const Section=()=>{
+            return(
+                <div>
+                    <Header/>
+                    <Card username="John" city="Bangalore"/>
+                    <Card username="Steve" city="Mumbai"/>
+                </div>
+            )
+        }
+        ReactDOM.render(<Section/>,document.getElementById("root"))
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductApp</title>
+    
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <form>
+                    <div class="mt-2">
+                        <input id="pname" type="text" placeholder="Product Name" class="form-control">
+                    </div>
+                    <div class="mt-2">
+                        <input id="brand" type="text" placeholder="Brand" class="form-control">
+                    </div>
+                    <div class="mt-2">
+                        <input id="quantity" type="text" placeholder="Quantity" class="form-control">
+                    </div>
+                    <div class="mt-2">
+                        <input id="price" type="text" placeholder="Price" class="form-control">
+                    </div>
+                    <div class="mt-2">
+                        <button type="button" onclick="AddProduct()" class="btn btn-secondary">Add Product</button>
+                        <button type="button" onclick="UpdateProduct()" class="btn btn-success">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <table class="table">
+                    <thead>
+                        <th>#</th>
+                        <th>Product Name</th>
+                        <th>Brand</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th></th>
+                        <th></th>
+                    </thead>
+                    <tbody id="tableBody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

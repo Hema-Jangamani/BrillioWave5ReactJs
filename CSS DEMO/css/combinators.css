@@ -1,0 +1,23 @@
+/* Combinators */
+/* 
+descendent selector(space)
+child selector(>)
+adjacent sibling selector(+)
+general sibling selector(~)
+*/
+
+/* div p{
+    color: red;
+} */
+
+/* div>p{
+    color: red;
+} */
+
+/* div+p{
+    color: red;
+} */
+
+div~p{
+    color: red;
+}

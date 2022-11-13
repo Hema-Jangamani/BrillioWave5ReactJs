@@ -1,0 +1,27 @@
+ /* There are 3 types of selectors
+        -Element selector
+        -Class selector
+        -Id selector */
+
+        /* Element Selector Example */
+p{
+    color: green;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+/* Class selector Example */
+.mystyle{
+    color: blue;
+    border: 1px solid red;
+    font-family: 'Comic Sans MS';
+    font-size: 35pt;
+    background-color: yellow;
+}
+
+/* ID Selector Example */
+#div1, #heading1{
+    color: brown;
+    font-size: 20pt;
+}

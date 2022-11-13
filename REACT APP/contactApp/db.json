@@ -1,0 +1,36 @@
+{
+  "contacts": [
+    {
+      "id": "2adc2878-31f9-4849-a2be-e1d258fe6a9c",
+      "fname": "Hema",
+      "lname": "J",
+      "email": "hema@gmail.com",
+      "city": "Gadag",
+      "phone": "456789568"
+    },
+    {
+      "id": "140cf2ab-1341-40ae-909a-85619ba464ea",
+      "fname": "Deepa",
+      "lname": "A",
+      "email": "deepa@gmail.com",
+      "city": "Gadag",
+      "phone": "9878765434"
+    },
+    {
+      "id": "68a80c81-14e7-4843-930e-221e13bd028b",
+      "fname": "Bhagya",
+      "lname": "H",
+      "email": "bhagya@gmail.com",
+      "city": "Gadag",
+      "phone": "98765456"
+    },
+    {
+      "id": "23ccc1c6-1910-433e-b233-87f3ae35d890",
+      "fname": "Amit",
+      "lname": "Kumar",
+      "email": "amit@gmail.com",
+      "city": "Chennai",
+      "phone": "276358926"
+    }
+  ]
+}
